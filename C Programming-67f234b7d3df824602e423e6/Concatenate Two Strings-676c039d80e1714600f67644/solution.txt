@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\n#include<string.h>\r\nint main(){\r\n    char str1[30],str2[30];\r\n    scanf(\"%s %s\",str1,str2);\r\n    strcat(str1,str2);\r\n    printf(\"%s\",str1);\r\n    return 0;\r\n}","language":"c","time":"2025-05-15T12:48:22.821Z","isCorrect":false}]
