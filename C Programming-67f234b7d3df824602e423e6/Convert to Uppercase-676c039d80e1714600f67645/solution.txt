@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    char str[30];\r\n    gets(str);\r\n    int i =0;\r\n    while(str[i]!='\\0'){\r\n        if(str[i]>='a' && str[i]<='z'){\r\n            str[i] = str[i] - 32;\r\n        }\r\n        i++;\r\n    }\r\n    printf(\"%s\",str);\r\n    return 0;\r\n}","language":"c","time":"2025-05-15T19:49:13.807Z","isCorrect":true}]
