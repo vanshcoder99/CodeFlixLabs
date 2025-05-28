@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    char ch;\r\n    scanf(\"%c\",&ch);\r\n    if(ch<=65 && ch>=90) printf(\"Uppercase\");\r\n    else if(ch<=97 && ch>=122) printf(\"Lowercase\");\r\n    else printf(\"Not an alphabet\");\r\n    return 0;\r\n}","language":"c","time":"2025-05-28T23:45:37.490Z","isCorrect":false}]
