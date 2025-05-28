@@ -1,0 +1,1 @@
+[{"code":"int fibonacciSeries(int n){\r\n    int r1 = 2;\r\n    int count = 0;\r\n    while(count<n){\r\n        for(int i=2;i<r1/2;i++){\r\n            if(r1%2==0){\r\n                break;\r\n            }\r\n        }\r\n        printf(\"%d \",r1);\r\n        r1++;\r\n        count++;\r\n    }\r\n}","language":"c","time":"2025-05-28T23:58:55.040Z","isCorrect":false}]
